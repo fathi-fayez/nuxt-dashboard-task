@@ -1,0 +1,32 @@
+
+$main-gradient: linear-gradient(90deg, #EF3E2C 0%, #E71F63 100%);
+$brand-text-color: rgba(183, 26, 42, 1);
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;  
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.router-link-exact-active {
+text-decoration: none;
+  .el-menu-item.is-active {
+  background: $main-gradient ;
+  color: white;
+  border-radius: 6px;
+  svg path {
+        fill: white;
+      }
+  }
+}
+
+
